@@ -2,12 +2,15 @@ import face_recognition
 import cv2
 import numpy as np
 
+
+# Landmark method to draw landmarks on faces
 def draw_landmarks(image, face_landmarks_list, radius=4):
     for face_landmarks in face_landmarks_list:
         for feature in face_landmarks:
             for point in face_landmarks[feature]:
                 cv2.circle(image, point, radius, (0, 255, 0), -1)
     return image
+
 
 # Load a sample picture and learn how to recognize it.
 known_image = face_recognition.load_image_file("images/ryan_reynolds_img.jpeg")

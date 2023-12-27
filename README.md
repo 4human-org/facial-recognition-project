@@ -2,6 +2,9 @@
 Facial recognition Python project that can assist with finding missing persons.
 
 v1 of simple facial recognition.
+* Currently displaying a known and unknown face to compare if they are the same person
+* Using image of Ryan Reynolds and Ryan Gosling for comparison
+* Landmark points are added to show facial structure differences
 
 ### Virtual Environment Setup
 ```commandline
@@ -18,5 +21,7 @@ python main.py
 ```
 
 ### Future Expansion
+If this project is expanded in the future, a v2 will be implemented and updated in the README.
+
 This project current serves as a simple facial recognition software. However, this project can serve as a tool to assist
 when provided with a missing persons database and video footage / images in order to help locate missing persons.
