@@ -1,6 +1,8 @@
 # facial-recognition-project
 Facial recognition Python project that can assist with finding missing persons.
 
+v1 of simple facial recognition.
+
 ### Virtual Environment Setup
 ```commandline
 pip3 install virtualenv
