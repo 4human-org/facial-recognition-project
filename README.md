@@ -6,6 +6,8 @@ v1 of simple facial recognition.
 * Using image of Ryan Reynolds and Ryan Gosling for comparison
 * Landmark points are added to show facial structure differences
 
+![plot](./images/facial_difference_img.png)
+
 ### Virtual Environment Setup
 ```commandline
 pip3 install virtualenv
